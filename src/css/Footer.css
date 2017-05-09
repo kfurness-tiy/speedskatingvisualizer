@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Faster+One');
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 100%;
+  max-height: 100%;
+  font-family: 'Audiowide', cursive;
+  background-image: url('../../public/images/ovalBanner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 20rem;
+  color: white;
+  font-size: 8px;
+}
+
+.top {
+  width: 5rem;
+}
