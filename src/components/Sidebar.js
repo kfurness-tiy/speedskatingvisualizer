@@ -7,25 +7,25 @@ class Sidebar extends React.Component {
     return (
       <sidebar className="sidebar-container">
         <h4>I'm a Sidebar!</h4>
-        <div className="homeButton">
+        <div className="homeButton" type="button">
           <button>HOME</button>
         </div>
-        <div className="resultsButton">
+        <div className="resultsButton" type="button">
           <button>RESULTS</button>
         </div>
-        <div className="skatersButton">
+        <div className="skatersButton" type="button">
           <button>SKATERS</button>
         </div>
-        <div className="recordsButton">
+        <div className="recordsButton" type="button">
           <button>RECORDS</button>
         </div>
-        <div className="seasonButton">
+        <div className="seasonButton" type="button">
           <button>SEASON</button>
         </div>
-        <div className="extrasButton">
+        <div className="extrasButton" type="button">
           <button>EXTRAS</button>
         </div>
-        <div className="faqButton">
+        <div className="faqButton" type="button">
           <button>FAQ</button>
         </div>
       </sidebar>
