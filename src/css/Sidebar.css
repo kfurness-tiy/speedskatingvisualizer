@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Faster+One');
 
-.sidebar-container {
+.app-sidebar {
   display: flex;
   flex-direction: column;
   width: 14rem;
