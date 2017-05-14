@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Faster+One');
+
+.pageFAQ {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: red;
+  font-family: 'Audiowide', cursive;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.pageFAQ h1 {
+  letter-spacing: 0.5rem;
+  font-size: 40px;
+  background: -webkit-linear-gradient(right, #FFF, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pageFAQ h3 {
+  color: #599CED;
+  font-size: 36px;
+  border-bottom: 1px solid grey;
+}
+
+.pageFAQ p {
+  color: black;
+  font-size: 24px;
+}

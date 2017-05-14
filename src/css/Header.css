@@ -9,7 +9,7 @@
   background-size: cover;
 }
 
-h1 {
+.header-container h1 {
   display: flex;
   padding-top: 22.5rem;
   padding-left: 2rem;
@@ -19,6 +19,9 @@ h1 {
   background: -webkit-linear-gradient(right, #FFF, #599CED);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: all 1s linear;
+  transform: translateX(20%);
+  transform: translateY(0%);
 }
 
 .navLinks {

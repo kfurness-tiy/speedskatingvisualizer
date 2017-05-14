@@ -13,35 +13,34 @@ class Sidebar extends React.Component {
   render() {
     return (
       <div className="app-sidebar">
-        <h4>I'm a Sidebar!</h4>
-          <div
+          <button
             className="home-page1"
             onClick={(event) => {this.props.eventEmitter.emit("navigateLandingPage", {Page: "home"})
-          }}><p>HOME</p></div>
-          <div
+          }}><p>HOME</p></button>
+          <button
             className="results-page1"
             onClick={(event) => {this.props.eventEmitter.emit("navigateLandingPage", {Page: "results"})
-          }}><p>RESULTS</p></div>
-          <div
+          }}><p>RESULTS</p></button>
+          <button
             className="skaters-page1"
             onClick={(event) => {this.props.eventEmitter.emit("navigateLandingPage", {Page: "skaters"})
-          }}><p>SKATERS</p></div>
-          <div
+          }}><p>SKATERS</p></button>
+          <button
             className="records-page1"
             onClick={(event) => {this.props.eventEmitter.emit("navigateLandingPage", {Page: "records"})
-          }}><p>RECORDS</p></div>
-          <div
+          }}><p>RECORDS</p></button>
+          <button
             className="season-page1"
             onClick={(event) => {this.props.eventEmitter.emit("navigateLandingPage", {Page: "season"})
-          }}><p>SEASON</p></div>
-          <div
+          }}><p>SEASON</p></button>
+          <button
             className="extras-page1"
             onClick={(event) => {this.props.eventEmitter.emit("navigateLandingPage", {Page: "extras"})
-          }}><p>EXTRAS</p></div>
-          <div
+          }}><p>EXTRAS</p></button>
+          <button
             className="faq-page1"
             onClick={(event) => {this.props.eventEmitter.emit("navigateLandingPage", {Page: "faq"})
-          }}><p>FAQ</p></div>
+          }}><p>FAQ</p></button>
       </div>
     )
   }

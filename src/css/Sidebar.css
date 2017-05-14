@@ -3,11 +3,10 @@
 .app-sidebar {
   display: flex;
   flex-direction: column;
-  width: 14rem;
-  height: auto;
   font-family: 'Audiowide', cursive;
-  align-content: center;
   background-color: #599CED;
+  font-size: 18px;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
 }
 
 h4 {
@@ -21,8 +20,13 @@ h4 {
 
 button {
   width: 14rem;
-  height: 6rem;
+  height: 100%;
   font-size: 2rem;
   font-family: 'Audiowide', cursive;
   background-color: inherit;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 14rem;
+  height: 100%;
 }
