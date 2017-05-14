@@ -9,8 +9,6 @@ class Header extends React.Component {
         <h1>Speedskating Visualizer</h1>
           <div className="nav">
             <ul className="navLinks">
-              <li>ABOUT</li>
-              <li>CONTACT</li>
             </ul>
           </div>
       </header>

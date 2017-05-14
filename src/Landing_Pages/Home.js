@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 
 class Home extends Component {
 
-  componentWillMount() {
-  this.props.eventEmitter.emit("navigateLandingPage", {Page: "home"})
-  }
+  // componentWillMount() {
+  // this.props.eventEmitter.emit("navigateLandingPage", {Page: "home"})
+  // }
 
   render() {
     return (

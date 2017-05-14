@@ -40,6 +40,7 @@ body {
            order: 1;
            flex: 0 1 auto;
            align-self: auto;
+            height: 100%; 
            }
           .Data {
             order: 2;

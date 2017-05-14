@@ -94,13 +94,13 @@ class App extends Component {
               landingPage={this.state.Page}/>
           </div>
           <div className="Data">
-            {/*Home />*/}
-            {/*Results />*/}
-            {/*Skaters />*/}
-            {/*Records />*/}
-            {/*Season />*/}
-            {/*Extras />*/}
-            <FAQ />
+            <Home />
+            {/*<Results />*/}
+            {/*<Skaters />*/}
+            {/*<Records />*/}
+            {/*<Season />*/}
+            {/*<Extras />*/}
+            {/*<FAQ />*/}
             {/*<Stats />*/}
             {/*<Visualizer />*/}
           </div>
