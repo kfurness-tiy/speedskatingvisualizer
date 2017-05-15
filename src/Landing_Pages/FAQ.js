@@ -3,10 +3,6 @@ import '../css/FAQ.css';
 
 class FAQ extends Component {
 
-  // componentWillMount() {
-  // this.props.eventEmitter.emit("navigateLandingPage", {Page: "faq"})
-  // }
-
   render() {
     return (
       <div className="pageFAQ">

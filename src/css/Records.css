@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Faster+One');
+
+.pageRecords {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Audiowide', cursive;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.pageRecords h1 {
+letter-spacing: 0.5rem;
+font-size: 40px;
+background: -webkit-linear-gradient(right, lightgrey, black);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

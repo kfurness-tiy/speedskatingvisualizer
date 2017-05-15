@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
-
+import '../css/Skaters.css';
 
 class Skaters extends Component {
-
-  componentWillMount() {
-  this.props.eventEmitter.emit("navigateLandingPage", {Page: "skaters"})
-  }
 
   render() {
     return (

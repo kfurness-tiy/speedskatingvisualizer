@@ -6,7 +6,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="header-container">
-        <h1>Speedskating Visualizer</h1>
+        <h1 id="logo" className="run-animation">Speedskating Visualizer</h1>
           <div className="nav">
             <ul className="navLinks">
             </ul>

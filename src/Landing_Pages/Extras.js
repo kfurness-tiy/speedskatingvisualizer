@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
-
+import '../css/Extras.css';
 
 class Extras extends Component {
-
-  componentWillMount() {
-  this.props.eventEmitter.emit("navigateLandingPage", {Page: "extras"})
-  }
 
   render() {
     return (

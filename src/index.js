@@ -4,8 +4,6 @@ import { BrowserRouter } from 'react-router-dom'
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
-// import Visualizer from './components/Visualizer';
-// import Stats from './components/Stats';
 import { EventEmitter } from 'events'
 import Home from './Landing_Pages/Home'
 import Results from './Landing_Pages/Results'
@@ -19,9 +17,9 @@ import './css/App.css';
 class App extends Component {
 
   constructor(props) {
-  super(props)
-  this.state = {
-    Page: 1
+    super(props)
+    this.state = {
+      Page: "home"
   }
 }
 
@@ -39,46 +37,30 @@ class App extends Component {
     console.log(newLandingPage);
   }
 
-  setCurrentPage() {
-
-    switch (this.state.Page) {
-      case "home":
-        console.log("Home Yo");
-        return <Home/>
-        // break;
-      case "results":
-        console.log("Results Yo");
-        return <Results/>
-        // break;
-      case "skaters":
-        console.log("Skaters Yo");
-        return <Skaters/>
-        // break;
-      case "records":
-        console.log("Records Yo");
-        return <Records/>
-        // break;
-      case "season":
-        console.log("Season Yo");
-        return <Season/>
-        // break;
-      case "extras":
-        console.log("Extras Yo");
-        return <Extras/>
-        // break;
-      case "faq":
-        console.log("FAQ Yo");
-        return <FAQ/>
-        // break;
-      default:
-        console.log("Home Yo");
-        return <Home/>
-    }
-  }
-
   render() {
-    const currentPage = this.setCurrentPage();
-    console.log("inside render", currentPage)
+    let currentPage
+
+    if(this.state.Page==="home"){
+      currentPage = <Home />
+    }
+    if(this.state.Page==="results"){
+      currentPage = <Results />
+    }
+    if(this.state.Page==="skaters"){
+      currentPage = <Skaters />
+    }
+    if(this.state.Page==="records"){
+      currentPage = <Records />
+    }
+    if(this.state.Page==="season"){
+      currentPage = <Season />
+    }
+    if(this.state.Page==="extras"){
+      currentPage = <Extras />
+    }
+    if(this.state.Page==="faq"){
+      currentPage = <FAQ />
+    }
 
     return (
       <div className="App">
@@ -94,15 +76,7 @@ class App extends Component {
               landingPage={this.state.Page}/>
           </div>
           <div className="Data">
-            <Home />
-            {/*<Results />*/}
-            {/*<Skaters />*/}
-            {/*<Records />*/}
-            {/*<Season />*/}
-            {/*<Extras />*/}
-            {/*<FAQ />*/}
-            {/*<Stats />*/}
-            {/*<Visualizer />*/}
+            {currentPage}
           </div>
         </div>
         <div className="Bottom">

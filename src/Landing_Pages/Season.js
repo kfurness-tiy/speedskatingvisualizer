@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
-
+import '../css/Season.css';
 
 class Season extends Component {
-
-  componentWillMount() {
-  this.props.eventEmitter.emit("navigateLandingPage", {Page: "season"})
-  }
 
   render() {
     return (

@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
+import '../css/Home.css';
+// import axios from 'axios';
 
 
 class Home extends Component {
-
-  // componentWillMount() {
-  // this.props.eventEmitter.emit("navigateLandingPage", {Page: "home"})
-  // }
 
   render() {
     return (

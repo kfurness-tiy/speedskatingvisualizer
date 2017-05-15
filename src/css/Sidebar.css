@@ -3,6 +3,8 @@
 .app-sidebar {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  height: 100%;
   font-family: 'Audiowide', cursive;
   background-color: #599CED;
   font-size: 18px;
@@ -18,7 +20,7 @@ h4 {
   color: white;
 }
 
-button {
+.home-page1, .results-page1, .skaters-page1, .records-page1, .season-page1, .extras-page1, .faq-page1 {
   width: 14rem;
   height: 100%;
   font-size: 2rem;

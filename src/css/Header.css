@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Faster+One');
 
+
 .header-container {
   display: flex;
   min-width: 100%;
@@ -19,8 +20,12 @@
   background: -webkit-linear-gradient(right, #FFF, #599CED);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: all 1s linear;
-  transform: translateX(20%);
+}
+
+.run-animation {
+  animation: my-fancy-animation 5s 1;
+  transition: all 5s linear;
+  transform: translateX(30%);
   transform: translateY(0%);
 }
 
