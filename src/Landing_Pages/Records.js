@@ -12,10 +12,16 @@ class Records extends Component {
   }
 
   componentDidMount() {
-    axios.get(`http://speedskatingresults.com/api/json/olympic_records.php${this.props.olympic_records}.json`)
-      .then(res => {
-        const records = res.data.data.children.map(obj => obj.data);
-        this.setState({ records });
+    const queryParam = "gender=f"
+    axios({
+      method:'get',
+      url:`http://speedskatingresults.com/api/json/olympic_records?${queryParam}`,
+      withCredentials: false,
+    })
+      .then(response => {
+        console.log(response)
+        // const records = response.data.data.children.map(obj => obj.data);
+        // this.setState({ records });
       });
   }
 

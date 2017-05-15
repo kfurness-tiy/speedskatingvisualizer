@@ -33,8 +33,6 @@ class App extends Component {
 
   updatePage({newLandingPage}) {
     this.setState({Page: newLandingPage})
-
-    console.log(newLandingPage);
   }
 
   render() {
