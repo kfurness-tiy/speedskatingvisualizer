@@ -7,15 +7,33 @@
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;
-    font-family: 'Audiowide', cursive;
+
     padding: 1rem;
     margin-left: 1rem;
+    color: black;
 }
 
 .pageRecords h1 {
-letter-spacing: 0.5rem;
-font-size: 40px;
-background: -webkit-linear-gradient(right, lightgrey, black);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  letter-spacing: 0.5rem;
+  font-size: 40px;
+  font-family: 'Audiowide', cursive;
+  background: -webkit-linear-gradient(right, lightgrey, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pageRecords h2 {
+  border-bottom: 1px solid grey;
+}
+
+
+
+.OlyRecordSkatersFemale td {
+  float: right;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  font-size: 20px;
+  margin-right: 4rem;
 }
