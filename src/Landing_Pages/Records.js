@@ -37,7 +37,7 @@ class Records extends Component {
   }
 
   componentDidMount() {
-    axios.get(`http://speedskatingresults.com/api/json/olympic_records`)
+    axios.get('http://speedskatingresults.com/api/json/olympic_records')
     .then(response => {
         console.log(response.data.records)
         this.setState({ records: response.data.records})
