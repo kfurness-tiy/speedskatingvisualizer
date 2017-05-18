@@ -1,0 +1,10 @@
+.pageContact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-left: 1rem;
+}
