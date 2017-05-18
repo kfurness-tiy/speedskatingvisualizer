@@ -7,15 +7,42 @@
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;
+    font-size: 2rem;
     font-family: 'Audiowide', cursive;
     padding: 1rem;
     margin-left: 1rem;
 }
 
-.pageSkaters h1 {
-letter-spacing: 0.5rem;
-font-size: 40px;
-background: -webkit-linear-gradient(right, lightgrey, black);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.country {
+  margin-bottom: 1rem;
+}
+
+.gender {
+  margin-bottom: 1rem;
+}
+
+.given {
+  margin-bottom: 1rem;
+}
+
+.family {
+  margin-bottom: 1rem;
+}
+
+.select {
+  margin-bottom: 1rem;
+  margin: 3rem;
+}
+
+.submit button {
+  background-color: #599CED;
+  font-family: 'Audiowide', cursive;
+  font-size: 2rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+option {
+  margin-left: 2rem;
 }

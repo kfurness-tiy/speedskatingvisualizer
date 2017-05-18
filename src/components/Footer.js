@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
       <footer className="footer-container">
         <div className="content">
-          <button className="top">Back to     Top</button>
+          <button className="top">Back to Top</button>
         </div>
         <h4>Copyright 2017 Robert Johnson</h4>
       </footer>
