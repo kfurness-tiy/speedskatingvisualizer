@@ -21,7 +21,7 @@
     "gh-pages": "^1.0.0",
     "react-scripts": "0.9.5"
   },
-  "homepage": ".",
+  "homepage": "http://.",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -32,5 +32,12 @@
   "main": "index.js",
   "author": "Robert Johnson",
   "license": "ISC",
-  "url": "https://github.com/speedskatingvisualizer"
+  "url": "https://github.com/speedskatingvisualizer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfurness-tiy/speedskatingvisualizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kfurness-tiy/speedskatingvisualizer/issues"
+  }
 }
