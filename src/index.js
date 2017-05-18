@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
@@ -90,8 +90,6 @@ class App extends Component {
 }
 
 ReactDOM.render(
-  <BrowserRouter basename="/">
-    <App />
-  </BrowserRouter>,
+    <App />,
   document.getElementById("root")
 );

@@ -21,11 +21,11 @@
   -webkit-text-fill-color: transparent;
 }
 
-.recordData td {
-  float: right;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  margin-right: 4rem;
+.recordData tr {
+  margin: 3px;
+}
 
+.recordData td {
+  padding: 5px;
+  margin-right: 4rem;
 }

@@ -24,13 +24,17 @@ class Records extends Component {
     this.handleRecordChange = this.handleRecordChange.bind(this);
   }
 
+  componentWillMount(){
+        this.getRecords("world_records");
+  }
+
   handleRecordChange(event) {
     let record = event.target.value;
-    this.setState({ ...record });
+    this.setState({...record} );
     this.getRecords(record);
   }
 
-  getRecords(Records) {
+  getRecords(records) {
     axios
       .get(`http://speedskatingresults.com/api/json/olympic_records`)
       .then(response => {

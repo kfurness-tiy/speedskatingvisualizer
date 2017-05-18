@@ -5,8 +5,8 @@ class Record extends Component {
   render() {
     let { record } = this.props;
     return (
-      <div className="recordData">
-        <tr>
+
+        <tr className="recordData">
           <td>{record.date}</td>
           <td>{record.location}</td>
           <td>{record.skater.country}</td>
@@ -14,7 +14,7 @@ class Record extends Component {
           <td>{record.time}</td>
           <td>{record.distance}</td>
         </tr>
-      </div>
+
     );
   }
 }
